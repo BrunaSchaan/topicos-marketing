@@ -1,0 +1,36 @@
+Nome Variável,Nome da variável legível,Unidade de medida,Tipo da variável
+_id,Identidade do cliente,Informação nominal,string
+shippingStatus,Status da venda,Informação nominal,sring
+subtotal,Valor antes da aplicação do cupom,Reais,float
+total,Valor total da venda,Reais,float
+products,Informação do produto,Informação nominal,string
+shippingTotal,Valor do frete,Reais,Integer
+user,ID do cliente que realizou a compra ,Informação nominal,string
+gatewayStatus,Situação da compra,Informação nominal,string
+createdAt,Criação do pedido na base de dados,Data e hora,Datetime
+updatedAt,Última atualização da venda ,Data e hora,Datetime
+shippingInfo.state,Estado do Brasil que ocorreu a venda,Informação nominal,string
+shippingInfo.city,Cidade da venda ,Informação nominal,string
+shippingInfo.neighborhood,Bairro que ocorreu a venda ,Informação nominal,string
+coupon._id,Cupom ID ,Informação nominal,string
+coupon.code,Código do Cupom ,Informação nominal,string
+coupon.seller,Identificação do vendedor ,Informação nominal,string
+coupon.discount,Valor do desconto,Reais,Integer
+coupon.couponType,Tipo de desconto: valor fixo ou porcentagem,Informação nominal,Objeto
+weather.main.temp,Temperatura no momento da venda,Grau Celsios ,Flot
+createdAt Timezone,Horário da venda na base de dados,Horas,Integer
+Sale Hour,Horário da venda de acordo com o fuso de Brasília ,Horas,Integer
+weekday-number,Dias da semana ,Número,Integer
+weekday,Dias da semana,Informação nominal,string
+day_month,Dia do mês que ocorreu a venda,Dia do mês,Integer
+slug,Doimínio no site do produto comprado,Informação nominal,string
+name,Nome do produto,Informação nominal,string
+price,Preço dos produtos ,Reais,Integer
+seller Id,Id da venda,Informação nominal,string
+selectedVariation.color.name,Cor do produto vendido,Informação nominal,string
+selectedVariation.color.hex,Código da cor do produto vendido,Informação nominal,string
+selectedVariation._id,Id da cor do produto vendido,Informação nominal,string
+selectedVariation.size,Tamanho do produto vendido,Informação nominal,string
+selectedVariation.tecidos._id,Id do tipo de tecido,Informação nominal,string
+selectedVariation.tecidos.name,Nome do tecido da roupa vendida,Informação nominal,string
+createdAt,Data e hora da venda do produto de acordo com o fuso de Brasília ,Data e hora,Datetime
