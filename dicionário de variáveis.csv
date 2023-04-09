@@ -34,5 +34,5 @@ selectedVariation.size,Tamanho do produto vendido,Informação nominal,string
 selectedVariation.tecidos._id,Id do tipo de tecido,Informação nominal,string
 selectedVariation.tecidos.name,Nome do tecido da roupa vendida,Informação nominal,string
 createdAt,Data e hora da venda do produto de acordo com o fuso de Brasília ,Data e hora,Datetime
-sales_diff, Diferença entre as vendas do mês anterior e o analisado, Reais, Float
-month_, Diferença entre as vendas do mês anterior e o analisado pelos 12 meses analisados, Reais, Float
+sales_diff, Diferença entre as vendas totais do mês anterior e o analisado, Reais, Float
+
